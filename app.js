@@ -6,7 +6,7 @@ const knex = require('./knex')
 
 
 app.get('/', function (req, res) {
-  res.send('Hello World')
+  res.send('Hello People')
 })
 
 
