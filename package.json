@@ -1,0 +1,19 @@
+{
+  "name": "train",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "stop": "killall node",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "SK",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.17.6",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
